@@ -1,9 +1,9 @@
 <?php
 	 class Leet
 		{
-		 function makeLeet ()
+		 function makeLeet ($input)
 		 {
-
+			 return $input;
 		 }
 
 	}
