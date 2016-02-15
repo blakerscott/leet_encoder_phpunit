@@ -20,6 +20,10 @@
 						 }
 						 $i++;
 					 }
+					 //the array below is necessary because the foreach loop does not
+					 // actually change the value of $array.  It makes a copy, applies 
+					 //the changes to the copy, and then waits for you to tell it what
+					 //to do with that information.
 					 array_push($blank_array, $word);
 				 }
 				 $new = implode(" ", $blank_array);
@@ -28,4 +32,3 @@
 	}
 
 ?>
-[]

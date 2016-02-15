@@ -98,8 +98,6 @@
 		$this->assertEquals('d0g 3at 1 am i s0zkz', $result);
 		}
 
-
-
 	}
 
 ?>
