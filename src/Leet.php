@@ -3,8 +3,11 @@
 		{
 		 function makeLeet ($input)
 		 {
-			 return $input;
-		 }
+
+
+			 $result = str_replace("e","3", $input);
+			 return $result;
+		 		 }
 
 	}
 
